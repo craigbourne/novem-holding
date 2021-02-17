@@ -1,0 +1,89 @@
+/* 
+#183642
+#B47978
+#F4AC45
+#6A8E75 
+*/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #183642;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+.text {
+	text-align: center;
+}
+
+.text h1 {
+	font-size: 7.25vw;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+.text h3 {
+	font-size: 1.6vw;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.links a {
+	color: #183642;
+}
+
+.links a:hover {
+	color: #b47978;
+}
+
+.links i {
+	font-size: 3vw;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.text h1 {
+		font-size: 10vw;
+	}
+	.text h3 {
+		font-size: 2.25vw;
+	}
+	.links i {
+		font-size: 5vw;
+		padding: 1.2rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.text h1 {
+		font-size: 12vw;
+	}
+	.text h3 {
+		font-size: 2.5vw;
+	}
+	.links i {
+		font-size: 6vw;
+		padding: 1.4rem;
+	}
+}
+@media screen and (max-width: 512px) {
+	.text h1 {
+		font-size: 18vw;
+	}
+	.text h3 {
+		font-size: 4vw;
+	}
+	.links i {
+		font-size: 10vw;
+	}
+}
