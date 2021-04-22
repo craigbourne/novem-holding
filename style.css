@@ -7,7 +7,8 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	color: #183642;
+	color: #fff;
+	background-color: #183642;
 }
 
 .wrapper {
@@ -40,7 +41,7 @@ body {
 }
 
 .links a {
-	color: #183642;
+	color: #fff;
 }
 
 .links a:hover {
@@ -49,7 +50,7 @@ body {
 
 .links i {
 	font-size: 3vw;
-	padding: 1rem;
+	padding: 1.2rem;
 }
 
 @media screen and (max-width: 1024px) {
